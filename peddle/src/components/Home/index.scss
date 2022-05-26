@@ -1,0 +1,107 @@
+.text-area {
+  width: 50%;
+  color: #fff;
+  position: absolute;
+  top: 20%;
+  left: 28%;
+
+  h1,
+  p {
+    text-align: center;
+  }
+}
+
+.timer {
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 7em;
+  padding-top: 2em;
+  width: 30%;
+  height: 100%;
+  position: absolute;
+  top: 45%;
+  left: 36%;
+}
+
+.wrapper {
+  position: absolute;
+  top: 20%;
+}
+
+.input {
+  position: absolute;
+  top: 70%;
+  left: 36%;
+  display: block;
+}
+
+.search {
+  display: flex;
+  font-size: 14px;
+}
+
+#standard-basic {
+  margin-right: 20px;
+}
+
+.inputRounded .MuiOutlinedInput-root {
+  border-radius: 50px;
+  margin-top: 20px;
+  background: #ddd;
+}
+
+.buttonRounded {
+  height: 30px;
+  font-size: 10px;
+}
+
+@media (max-width: 992px) {
+  .home-page {
+    width: 100%;
+  }
+
+  .text-area {
+    width: 70%;
+    left: 15%;
+  }
+
+  .timer {
+    top: 42%;
+    left: 26%;
+  }
+
+  .input {
+    position: absolute;
+    top: 60%;
+    left: 25%;
+    display: block;
+  }
+}
+
+@media (max-width: 600px) {
+  .home-page {
+    width: 100%;
+  }
+
+  .text-area {
+    width: 70%;
+    left: 15%;
+  }
+
+  .timer {
+    left: 3%;
+    top: 48%;
+    width: 20%;
+  }
+
+  .input {
+    position: absolute;
+    top: 70%;
+    left: 5%;
+    display: block;
+
+    .inputStandard {
+      width: 40%;
+    }
+  }
+}

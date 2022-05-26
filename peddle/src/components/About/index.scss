@@ -1,0 +1,61 @@
+.about {
+  width: 85%;
+  height: 100vh;
+  top: 0;
+  margin: 0 auto;
+  position: relative;
+  background: rgba(23, 1, 49);
+}
+
+.wrapper {
+  position: relative;
+  background: chartreuse;
+  width: 50%;
+  height: 80%;
+}
+
+.box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 700px;
+  height: 520px;
+  background: rgba(23, 1, 49, 0.6);
+}
+
+.text {
+  display: flex;
+  margin-top: 30%;
+  margin-left: 50%;
+  text-transform: uppercase;
+  color: #ddd;
+}
+
+.line-container {
+  margin-top: 22px;
+  margin-right: 5px;
+}
+
+.line {
+  width: 50px;
+}
+
+.h-text {
+  position: absolute;
+  top: 47%;
+  left: 37%;
+  text-align: center;
+  color: #ddd;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 45px;
+  width: 400px;
+}
+
+.p-text {
+  position: absolute;
+  bottom: 2px;
+  right: 100px;
+  width: 300px;
+  color: #ddd;
+}
